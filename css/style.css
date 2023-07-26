@@ -47,7 +47,6 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -231,16 +230,20 @@ body {
 /*-----------------------------Our Options ----------------------------*/
 .our-options {
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .our-options-list {
   display: flex;
-  gap: 24px;
+  /*gap: 24px;*/
+  flex-wrap: wrap;
 }
 
 .our-options-item {
-  width: calc((100% - 24px * 3) / 4);
+  width: 100%;
+  /*width: calc((100% - 24px * 3) / 4);*/
 }
 .our-options-subtitle {
   font-size: 20px;
@@ -869,4 +872,34 @@ body {
   background-color: var(--ocean);
   border: none;
   fill: var(--icon);
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 458px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 734x;
+  }
+
+  .our-options {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .our-options-item {
+    width: calc((100% - 12px));
+  }
+
+  .our-options-list {
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 }
