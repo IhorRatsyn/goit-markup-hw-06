@@ -728,19 +728,22 @@ body {
   pointer-events: none;
 }
 .modal-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  max-width: 300px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .modal-title span {
-  color: var(--accent-color);
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .modal-field {
