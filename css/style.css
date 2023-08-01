@@ -973,3 +973,37 @@ body {
 
 @media screen and (min-width: 768px) {
 }
+
+@media screen and (max-width: 767px) {
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-menu {
+    margin-top: 24px;
+  }
+
+  .header-menu-item {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-btn {
+    margin-top: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+}
