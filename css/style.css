@@ -172,6 +172,33 @@ body {
   color: var(--ocean);
 }
 
+.header-mobile-btn {
+  display: block;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header-mobile-icon {
+  fill: #000;
+}
+
+.js-menu-container {
+  display: none;
+}
+
+.js-menu-container.is-open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 1000;
+}
+
 /*-------------------------HERO-----------------------------*/
 
 .hero {
@@ -1014,4 +1041,18 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+  .our-options-icon-div {
+    display: none;
+  }
+
+  .our-options-subtitle {
+    text-align: center;
+  }
+
+  .our-options-item {
+    margin-bottom: 72px;
+  }
 }
