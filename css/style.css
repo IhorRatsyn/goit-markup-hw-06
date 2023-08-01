@@ -906,3 +906,42 @@ body {
     max-width: 1158px;
   }
 }
+@media screen and (max-width: 767px) {
+  .we-doing-list {
+    flex-direction: column; /* Stack images vertically on mobile */
+  }
+
+  .we-doing-item {
+    width: 100%; /* Make each image occupy full width */
+    margin-bottom: 24px; /* Add spacing between images on mobile */
+  }
+}
+
+/* Media screen for Team section */
+@media screen and (max-width: 767px) {
+  .team-list {
+    flex-direction: column; /* Stack team members vertically on mobile */
+  }
+
+  .team-item {
+    width: 100%; /* Make each team member occupy full width */
+    border-radius: 4px; /* Adjust the border-radius for a better look on mobile */
+    box-shadow: none; /* Remove the box shadow for a cleaner look on mobile */
+    margin-bottom: 24px; /* Add spacing between team members on mobile */
+  }
+}
+
+/* Media screen for Customers section */
+@media screen and (max-width: 767px) {
+  /* Add specific styles for Customers section on mobile if needed */
+}
+
+/* Media screen for Footer section */
+@media screen and (max-width: 767px) {
+  /* Add specific styles for Footer section on mobile if needed */
+}
+
+/* Optional: Further customization for tablets and larger screens */
+@media screen and (min-width: 768px) {
+  /* Add here any specific styles that you want to apply for tablets and larger screens */
+}
