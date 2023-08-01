@@ -908,40 +908,68 @@ body {
 }
 @media screen and (max-width: 767px) {
   .we-doing-list {
-    flex-direction: column; /* Stack images vertically on mobile */
+    flex-direction: column;
   }
 
   .we-doing-item {
-    width: 100%; /* Make each image occupy full width */
-    margin-bottom: 24px; /* Add spacing between images on mobile */
+    width: 100%;
+    margin-bottom: 24px;
   }
 }
 
-/* Media screen for Team section */
 @media screen and (max-width: 767px) {
   .team-list {
-    flex-direction: column; /* Stack team members vertically on mobile */
+    flex-direction: column;
   }
 
   .team-item {
-    width: 100%; /* Make each team member occupy full width */
-    border-radius: 4px; /* Adjust the border-radius for a better look on mobile */
-    box-shadow: none; /* Remove the box shadow for a cleaner look on mobile */
-    margin-bottom: 24px; /* Add spacing between team members on mobile */
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 24px;
   }
 }
 
-/* Media screen for Customers section */
 @media screen and (max-width: 767px) {
-  /* Add specific styles for Customers section on mobile if needed */
 }
 
-/* Media screen for Footer section */
 @media screen and (max-width: 767px) {
-  /* Add specific styles for Footer section on mobile if needed */
 }
 
-/* Optional: Further customization for tablets and larger screens */
 @media screen and (min-width: 768px) {
-  /* Add here any specific styles that you want to apply for tablets and larger screens */
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container-text,
+  .footer-socials,
+  .subscribe-form-container {
+    margin-bottom: 24px;
+  }
+
+  .subscribe-form-text {
+    text-align: center;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe-label,
+  .subscribe-btn {
+    margin: 0 auto;
+  }
+
+  .subscribe-form-input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
 }
