@@ -181,7 +181,7 @@ body {
 }
 
 .header-mobile-icon {
-  fill: #000;
+  stroke: var(--navyblue);
 }
 
 .js-menu-container {
@@ -932,15 +932,14 @@ body {
   .container {
     max-width: 1158px;
   }
-}
-@media screen and (max-width: 767px) {
-  .we-doing-list {
-    flex-direction: column;
+  .header-mobile-btn {
+    display: none;
   }
+}
 
-  .we-doing-item {
-    width: 100%;
-    margin-bottom: 24px;
+@media screen and (max-width: 767px) {
+  .we-doing {
+    display: none;
   }
 }
 
@@ -1002,17 +1001,18 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .header-nav {
-    display: flex;
-    flex-direction: column;
-  }
-
   .header-menu {
-    margin-top: 24px;
+    display: none;
+  }
+  .header-social {
+    display: none;
+  }
+  .header {
+    display: flex;
   }
 
-  .header-menu-item {
-    margin-bottom: 12px;
+  .header-logo {
+    margin-right: 20px;
   }
 }
 
