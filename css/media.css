@@ -15,13 +15,12 @@
   }
 }
 
-/* Приклад стилю для мобільної версії */
 @media (max-width: 768px) {
   .footer-input {
-    width: 100%; /* Розтягування на весь екран */
+    width: 100%;
     min-width: 320px;
-    box-sizing: border-box; /* Забезпечення правильного відображення внутрішніх відступів */
-    padding: 10px; /* Налаштування внутрішніх відступів */
+    box-sizing: border-box;
+    padding: 10px;
   }
 }
 
