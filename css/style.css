@@ -414,8 +414,10 @@ body {
 
 /*-----------------------------customers----------------------------------*/
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-title {
@@ -428,10 +430,14 @@ body {
 
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: 100%;
+  /*width: calc((100% - 120px) / 6);*/
   height: 88px;
 }
 
@@ -469,7 +475,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  /*max-width: 264px;*/
+  width: 268px;
+  text-align: center;
 }
 .footer-logo-accent {
   color: #f4f4fd;
@@ -486,18 +494,20 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-container {
-  display: flex;
+  /*display: flex;*/
   align-items: baseline;
 }
 
 .footer-container-text {
   margin-right: 120px;
+  margin-bottom: 72px;
 }
 .footer-social-text {
   font-weight: 500;
@@ -506,11 +516,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-standart);
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-social-list {
   display: flex;
   gap: 16px;
+  padding: revert;
 }
 .footer-social-item {
   width: 40px;
@@ -538,7 +550,8 @@ body {
 }
 
 .subscribe-form-container {
-  margin-left: 80px;
+  /*margin-left: 80px;*/
+  margin-top: 72px;
 }
 
 .subscribe-form-text {
@@ -548,10 +561,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .subscribe-form {
-  display: flex;
+  /*display: flex;*/
   gap: 24px;
 }
 
@@ -570,6 +584,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 24px;
 }
 
 .subscribe-form-input::placeholder {
@@ -592,6 +607,7 @@ body {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .subscribe-btn-icon {
