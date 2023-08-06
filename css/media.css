@@ -63,12 +63,6 @@
     margin-right: 82px;
   }
 
-  .footer-social-list {
-    gap: 16px;
-    padding: revert;
-    text-align: center;
-  }
-
   /*------------------------------PC---------------------------------------------*/
 }
 @media screen and (min-width: 1158px) {
