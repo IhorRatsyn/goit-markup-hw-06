@@ -14,6 +14,22 @@
   }
 }
 
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 426px;
+    width: 100%;
+  }
+
+  .advantages > .container,
+  .companies > .container,
+  .footer > .container {
+  }
+
+  .wedoing {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-input {
     width: 100%;

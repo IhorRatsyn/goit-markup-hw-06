@@ -186,6 +186,8 @@ img {
 }
 
 .mob-address {
+  font-family: Roboto;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -200,7 +202,7 @@ img {
 }
 
 .mob-address-tel {
-  color: var(--color-text);
+  color: var(--accent-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -227,7 +229,6 @@ img {
 
 .mob-media-list {
   display: flex;
-
   gap: 56px;
 }
 
@@ -700,7 +701,8 @@ img {
 }
 
 .modal {
-  width: 392px;
+  width: 100%;
+  max-width: 392px;
   min-height: 584px;
   border-radius: 4px;
   background: #fcfcfc;
