@@ -32,11 +32,12 @@
   .team > .container,
   .footer > .container,
   .advantages > .container {
-    max-width: 584px;
+    width: 100%;
+    max-width: 768px;
   }
 
   .companies > .container {
-    max-width: 584px;
+    max-width: 582px;
     width: 100%;
   }
 
@@ -52,7 +53,10 @@
 
   .header-address-item {
     display: block;
-    padding: 16px 0;
+  }
+
+  .header-address-link {
+    margin-bottom: 12px;
   }
 
   .header-menu-link {
@@ -142,11 +146,11 @@
   }
 
   .advantages-item {
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 24px) / 2);
   }
 
   .advantages-list {
-    gap: 72px;
+    gap: 72px 24px;
   }
 
   .advantages-subtitle {
@@ -159,7 +163,7 @@
 
   .team-title-list {
     display: flex;
-    gap: 24px;
+    gap: 0 24px;
   }
 
   .team-advantages {
@@ -409,4 +413,8 @@
   .footer-media {
     margin-right: 80px;
   }
+}
+
+.footer-text {
+  width: 264px;
 }

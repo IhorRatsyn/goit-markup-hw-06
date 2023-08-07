@@ -370,7 +370,7 @@ img {
 .team {
   background-color: var(--color-white);
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 32px;
 }
 
 .team > .container {
