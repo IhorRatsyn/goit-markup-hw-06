@@ -141,17 +141,17 @@ img {
   width: 100vw;
   height: 100vh;
   z-index: 2;
-  padding: 24px 24px 40px 40px;
+  padding: 80px 40px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .menu-close-btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
-  margin-bottom: 40px;
-  border: none;
   background: transparent;
   width: 24px;
   height: 24px;
@@ -227,7 +227,7 @@ img {
 
 .mob-media-list {
   display: flex;
-  justify-content: center;
+
   gap: 56px;
 }
 
@@ -393,11 +393,12 @@ img {
 }
 
 .team-advantages {
-  max-width: 264px;
+  width: 264px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  margin-bottom: 72px;
 }
 
 .team-images {
@@ -407,7 +408,6 @@ img {
 .container-team {
   padding: 32px 0;
   margin: 0 auto;
-  margin-bottom: 72px;
 }
 
 .team-name {
@@ -624,7 +624,6 @@ img {
 .footer-bottom {
   display: grid;
   place-items: center;
-  margin-bottom: 16px;
   /* margin-left: 80px; */
 }
 
@@ -639,8 +638,7 @@ img {
 }
 
 .footer-form {
-  display: grid;
-  place-items: center;
+  width: 100%;
   /* display: flex; */
   /* gap: 24px; */
 }
@@ -665,6 +663,7 @@ img {
 }
 
 .footer-form-btn {
+  margin: 0 auto;
   min-width: 165px;
   height: 40px;
   display: flex;

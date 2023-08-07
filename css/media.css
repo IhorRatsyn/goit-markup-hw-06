@@ -1,13 +1,12 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 428px;
+    max-width: 426px;
     width: 100%;
   }
 
   .advantages > .container,
   .companies > .container,
   .footer > .container {
-    max-width: 396px;
   }
 
   .wedoing {
@@ -15,19 +14,18 @@
   }
 }
 
-/* Приклад стилю для мобільної версії */
 @media (max-width: 768px) {
   .footer-input {
-    width: 100%; /* Розтягування на весь екран */
-    max-width: 398px; /* Максимальна ширина 398px */
-    box-sizing: border-box; /* Забезпечення правильного відображення внутрішніх відступів */
-    padding: 10px; /* Налаштування внутрішніх відступів */
+    width: 100%;
+    max-width: 398px;
+    box-sizing: border-box;
+    padding: 10px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 766px;
     width: 100%;
   }
 
